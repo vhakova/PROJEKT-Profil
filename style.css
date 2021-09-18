@@ -16,4 +16,137 @@ html { box-sizing: border-box; }
 
 body {
 	background-color: #bdc3c7;
+	margin: 0;
+}
+
+.profil {
+	float: left;
+	width: 300px;
+	margin: 30px;
+	position: relative;
+	box-shadow: 5px 5px 10px gray;
+	padding: 0;
+}
+
+.foto {
+	float: left;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+}
+
+.logo {
+	background-color: #b92e81;
+	border-radius: 50%;
+	position: absolute;
+	right: 20px;
+	top: 175px;
+
+}
+
+.obsah { 
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #bdc3c7;
+	font-weight: bold;
+	background-color: #31363b;
+	margin: 0;
+	display: inline-block;
+	padding: 30px;
+}
+
+.odkazy {
+	background-color: #31363b;
+	margin: 0; 
+	padding: 0;
+	display: inline-block;
+}
+
+.obsah {
+	line-height: 2;
+}
+
+.obsah h1, .odkazy {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.obsah h1 {
+	margin: 0;
+}
+
+.obsah p {
+	margin: 0;
+	padding: 0;
+	
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+}
+
+ul li {
+	display: inline-block
+}
+
+ul li a {
+	color: #bdc3c7;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.portfolio a {
+	padding: 20px 75.2px;
+	margin: 0;
+}
+
+.portfolio {
+	padding: 20px 0;
+	border-top: 0.8px solid #bdc3c7;
+	border-bottom: 0.8px solid #bdc3c7;
+}
+
+.facebook a {
+	padding: 20px 28.5px;
+	margin: 0;
+}
+
+.facebook {
+	float: left;
+	width: 150px;
+	padding: 20px 0;
+	border-right: 1px solid #bdc3c7;
+	
+}
+
+.twitter {
+	float: left;
+	width: 144px;
+	padding: 20px 0;
+}
+
+.twitter a {
+	padding: 20px 38.1px;
+	margin: 0;
+}
+
+.portfolio a:hover {
+	background-color: #e74c3c;
+	padding: 20px 75px 20px 75px;
+	border-top: 0.8px solid #bdc3c7;
+	border-bottom: 0.8px solid #bdc3c7;
+}
+
+.facebook:hover {
+	background-color: #3b5998;
+	width: 150px;
+	border-right: 0.8px solid #bdc3c7;
+}
+
+.twitter:hover {
+	background-color: #1da1f2;
+	width: 150px;
+	padding: 20px 0;
+	margin: 0;
 }
